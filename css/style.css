@@ -1,0 +1,160 @@
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color:#4458dc
+}
+
+/* 1. Custom CSS */
+
+
+body {
+    font-family:'Roboto', sans-serif ;
+    width: 100%;
+    
+    /* background-image: url(../img/img.jpg);
+    background-repeat: no-repeat; */
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.main-btn {
+    cursor: pointer;
+    box-shadow: 0 0.625rem rgb(118 85 225 / 30%);
+}
+
+h1 {
+    font-size: 4.375rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: goldenrod;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1.5625rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.9375rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: gainsboro;
+    margin-bottom: 2.1875rem;
+}
+
+p {
+    color: gray;
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
+
+
+
+/* 2.Navbar */
+
+
+.navbar {
+    background-color: #6c68ff;
+
+}
+
+.header_wrapper .navbar {
+        justify-content: space-between;
+}
+
+
+
+/* Banner */
+
+
+.Banner_wrapper {
+    padding-top: 13rem;
+    z-index: 1;
+}
+
+.about_wrapper {
+    padding-top: 10rem;
+    z-index: 1;
+}
+
+.card {
+    width: 270px;
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px #eb4040;
+}
+
+
+
+
+
+/* .footer_section {
+    height: 70px;
+    background-color: #b9cde4;
+    padding: 20px;
+    padding-block: 17px;
+    margin-top: 130px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.footer-container h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+} */
+
+
+
+.sub-footer {
+    background-color: #183b56;
+    padding-block: 17px;
+}
+
+.subfooter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+
